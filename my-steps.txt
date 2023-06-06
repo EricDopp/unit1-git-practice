@@ -122,13 +122,27 @@ mkdir drinks
 rm -r drinks
 
 ### Step 4
-
+cd desktop/unit1-git-practice/
+git init (I had inadvertantly done it once before doing it again, sorry)
+git add .
+git commit -m 'first commit'
 
 ### Step 5
+git remote add origin https://github.com/EricDopp/unit1-practice-git
+git branch -M main
+git remote rm origin
+git remote add origin https://github.com/EricDopp/unit1-practice-git
+git branch -M main
+git push -u origin main
 
 
 ### Step 6
-
+touch menu.txt
+ls
+git status
+git add .
+git commit -m 'starting a menu'
+git push
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
